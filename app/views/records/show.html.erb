@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Music title:</strong>
+  <%= @record.music_title %>
+</p>
+
+<p>
+  <strong>Mood:</strong>
+  <%= @record.mood %>
+</p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @record.location %>
+</p>
+
+<p>
+  <strong>Weather:</strong>
+  <%= @record.weather %>
+</p>
+
+<p>
+  <strong>Memo:</strong>
+  <%= @record.memo %>
+</p>
+
+<%= link_to 'Edit', edit_record_path(@record) %> |
+<%= link_to 'Back', records_path %>
